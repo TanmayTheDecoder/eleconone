@@ -1,0 +1,152 @@
+.benefits-container {
+    position: relative;
+    height: 120vh;
+    width: 100%;
+}
+
+hr {
+    margin: -.5em 0%;
+}
+
+button {
+    height: 5.5vh;
+    width: 50%;
+    cursor: pointer;
+    text-transform: capitalize;
+    background: #1717f1;
+    border: none;
+    color : azure;
+    font-size: .9rem;
+    border-radius: 3px;
+}
+
+button:hover {
+    animation : animate_button 1.3s linear infinite alternate;
+}
+
+@keyframes animate_button {
+    from {
+        transform: translateY(-8.9%);
+    }
+
+    to {
+        transform: translateY(8.9%);
+    }
+}
+
+.benefits-back-container {
+    height: 100%;
+    width: 100%;
+    background-color: #1717f1;
+    position: relative;
+}
+
+.benefits-back-container img {
+    height: 90vh;
+    width: 45%;
+    position: absolute;
+    left: 10%;
+    opacity: .7;
+    animation: animate_benefit_svg 3s linear infinite alternate;
+}
+
+.benefits_content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;    
+    display: flex;
+    justify-content: center;
+}
+
+.benefits_content_inner {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.benefits_title {
+    height: 30%;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.benefits_title .small {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.benefits_title .big {
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.benefits_title .smallest {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.benefits_cards {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.developer,.model,.part_time {
+    width: 32.3%;
+    background-color: azure;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.developer,.part_time {
+    height: 95%;
+}
+
+.model {
+    height: 100%;
+}
+
+.adjust img {
+    width: 25%;
+}
+
+.adjust .small {
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1717f1;
+    letter-spacing: .1em;
+}
+
+.adjust .smaller {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #585858;
+    letter-spacing: .02em;
+    text-transform: capitalize;
+} 
+
+@keyframes animate_benefit_svg {
+    from {
+        transform: translateX(-8%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}

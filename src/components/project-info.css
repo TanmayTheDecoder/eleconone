@@ -1,0 +1,67 @@
+.project-info-container {
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(12, 12, 54, 0.94),rgba(12, 12, 54, 0.721)),url(../assets/images/projects-data.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fancy-border-radius {
+    position: absolute;
+    top: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: white;
+    border-radius: 10% 10% 38% 32% / 0% 0% 63% 44%;
+}
+
+.fancy-bottom-radius {
+    position: absolute;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(23, 23, 241);
+    border-radius: 24% 42% 38% 32% / 2% 77% 0% 0%;
+}
+
+.project-data {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.service-years,.country-served {
+    height: 100%;
+    width: 26%;
+    border-right: 1.5px dashed whitesmoke;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.projects {
+    font-size: 2rem;
+    height: 100%;
+    width: 26%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.service-years h1, .country-served h1, .projects h1 {
+    margin: auto;
+}
+

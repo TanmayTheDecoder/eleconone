@@ -1,0 +1,92 @@
+.graphics-container {
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graphics-inner {
+    height: 80%;
+    width: 80%;
+    position: relative;
+}
+
+.hero-wobble {
+    height: 30vh;
+    width: 20%;
+    background-color: #d7d7d71e;
+    border-radius: 24% 76% 66% 34% / 42% 31% 69% 58% ;
+    animation: animate-hero-blob 3s linear infinite alternate;
+}
+
+@keyframes animate-hero-blob {
+    0% {
+        transform: translateX(30%);
+    }    
+    100% {
+        transform: translateX(-30%);
+    }
+}
+
+.circle {
+    left: 18%;
+    position: absolute;
+    bottom: 0;
+    animation: animate-hero-circle 3s linear infinite alternate;
+}
+
+@keyframes animate-hero-circle {
+    0% {
+        transform: translateX(-50%);
+    }    
+    100% {
+        transform: translateX(10%);
+    }
+}
+
+.big-circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60vh;
+    width: 40%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 40px solid #d7d7d71e;
+    animation: animate-hero-big-circle 8s linear infinite alternate;
+}
+
+@keyframes animate-hero-big-circle {
+    0% {
+        transform: translateY(-20%);
+    }    
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.big-circle-inner {
+    height: 90%;
+    width: 109%;
+    border-radius: 50%;
+}
+
+.big-circle-inner img {
+    height: 90%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+    animation: animate-hero-big-circle-inner-image 6s linear infinite alternate;
+}
+
+@keyframes animate-hero-big-circle-inner-image {
+    0% {
+        transform: translateY(40%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}

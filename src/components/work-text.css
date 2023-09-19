@@ -1,0 +1,102 @@
+.work-text-container {
+    height: 80%;
+    width: 80%;
+}
+
+.work-text-aside {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-text-l-side {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.work-text-l-side h4 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: rgb(23, 23, 232);
+    margin-bottom: -5%;
+}
+
+.work-text-l-side h1 {
+    text-align: left;
+    font-size: 3.5rem;
+    color: rgb(67, 71, 93);
+}
+
+.work-text-l-side p {
+    font-size: 1.1rem;
+    color: rgb(67, 71, 93);
+    margin-top: -5%;
+    margin-bottom: 7%;
+}
+
+.work-text-l-side button {
+    font-size: 1rem;
+    color: white;
+    border: none;
+    height: 5vh;
+    width: 40%;
+    background-color: rgb(58, 58, 153);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgb(67, 71, 93);
+}
+
+.work-text-r-side {
+    height: 100%;
+    width: 45%;
+    z-index: 1;
+}
+
+.r-side-divs {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r-side-left-div {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.r-side-right-div {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-I,.card-II,.card-III {
+    height: 45%;
+    width: 100%;
+    background-color: #f7f7f77b;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    padding: 5%;
+}
+
+.card-I img, .card-II img, .card-III img {
+    width: 5vw;
+} 

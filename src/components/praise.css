@@ -1,0 +1,100 @@
+.praise-container {
+    height: 100vh;
+    position: relative;
+}
+
+.praise-aside {
+    height: 60%;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.praise-l-side {
+    height: 100%;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.praise-l-side h2 {
+    color: rgb(12, 12, 254);
+    text-transform: uppercase;
+}
+
+.praise-l-side h1 {
+    color: rgb(55, 55, 81);
+    font-size: 3.5rem;
+}
+
+.praise-l-side p{
+    color: rgb(55, 55, 81);
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+.praise-r-side {
+    height: 100%;
+    width: 47%;
+}
+
+.praise-r-side img {
+    animation: animate-values 6s  linear infinite alternate;
+}
+
+@keyframes animate-values {
+    0% {
+        transform: translate(0%);
+    }
+
+    100% {
+        transform: translate(-70px, -60px);
+    }
+
+}
+
+.barI,.barII,.barIII {
+    height: 1vh;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.barI {
+    background-color: #ccff00;
+    animation: animate-bar 8s linear infinite;
+}
+
+.barII {
+    background-color: #7fff00;
+    animation: animate-bar 8s linear infinite;
+}
+
+.barIII {
+    background-color: #39ff14;
+    animation: animate-bar 8s linear infinite;
+}
+
+@keyframes animate-bar {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    25% {
+        filter: hue-rotate(45deg);
+    }
+    50% {
+        filter: hue-rotate(90deg);
+    }
+    75% {
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

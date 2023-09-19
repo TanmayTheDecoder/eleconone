@@ -1,0 +1,38 @@
+.praise-back-container {
+    height: 100vh;
+    position: relative;
+}
+
+.praise-blob {
+    height: 80vh;
+    width: 30%;
+    background: linear-gradient(45deg, #e14d2a, orangered);
+    border-radius: 43% 57% 63% 37% / 30% 34% 66% 70% ;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    animation: radius-animation 9s ease-out infinite;
+}
+
+@keyframes radius-animation {
+    0% {
+        border-radius: 43% 57% 63% 37% / 30% 34% 66% 70%;
+        filter: hue-rotate(0deg);
+    }
+    25% {
+        border-radius: 62% 38% 63% 37% / 15% 37% 63% 85%;
+        filter: hue-rotate(45deg);
+    }
+    50% {
+        border-radius: 34% 66% 63% 37% / 15% 78% 22% 85%;
+        filter: hue-rotate(90deg);
+    }
+    75% {
+        border-radius: 72% 28% 64% 36% / 84% 14% 86% 16%;
+        filter: hue-rotate(180deg);
+    }
+    100% {
+        border-radius: 43% 57% 63% 37% / 30% 34% 66% 70%;
+        filter: hue-rotate(360deg);
+    }
+}

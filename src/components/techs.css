@@ -1,0 +1,75 @@
+.techs-container {
+    height: 200vh;
+    background-color: #f6f6f6;
+    position: relative;
+    overflow: hidden;
+}
+
+.long-blob {
+    height: 100%;
+    width: 30%;
+    background-color: #d7d7d7;
+    position: absolute;
+    top: 0%;
+    border-radius: 43% 48% 46% 46% / 45% 35% 58% 57%;
+    animation: animate-long-blob 9s ease-out infinite;
+    opacity: 0.4;
+}
+
+@keyframes animate-long-blob {
+    0% {
+        border-radius: 43% 48% 46% 46% / 45% 35% 58% 57%;
+    }
+    25% {
+        border-radius: 48% 24% 42% 40% / 51% 40% 51% 56%;
+    }
+    50% {
+        border-radius: 23% 68% 27% 58% / 47% 44% 51% 56%;
+    }
+    75% {
+        border-radius: 58% 14% 68% 22% / 39% 59% 46% 65% ;
+    }
+    100% {
+        border-radius: 43% 48% 46% 46% / 45% 35% 58% 57%;
+    }
+}
+
+.long-bar {
+    height: 300vh;
+    width: 20%;
+    background-color: rgba(203, 202, 202, 0.285);
+    transform: rotate(-47deg);
+    margin-top: -20%;
+    position: absolute;
+    left: 30%;
+}
+
+.techs-circle-overflowed {
+    height: 60vh;
+    width: 30vw;
+    border-radius: 50%;
+    background-color:  rgba(203, 202, 202, 0.285);
+    position: absolute;
+    top: 50%;
+    left: -15%;
+}
+
+.first-back-circle {
+    height: 60vh;
+    width: 32vw;
+    border-radius: 50%;
+    background-color: rgba(203, 202, 202, 0.285);
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.second-back-circle {
+    height: 60vh;
+    width: 32vw;
+    border-radius: 50%;
+    background-color: rgba(203, 202, 202, 0.285);
+    position: absolute;
+    bottom: 1%;
+    right: 40%;
+}

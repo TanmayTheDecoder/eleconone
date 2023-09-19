@@ -1,0 +1,41 @@
+.navbar-container {
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-inner {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.logo {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo img {
+    width: 75%;
+    height: 9vh;
+}
+
+.nav-links {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-links a {
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
