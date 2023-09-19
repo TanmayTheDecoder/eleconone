@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/eleconone/static/css/main.258d7af3.css",
+    "main.js": "/eleconone/static/js/main.6e8cd8c1.js",
+    "static/js/787.9a16c58f.chunk.js": "/eleconone/static/js/787.9a16c58f.chunk.js",
+    "static/media/team.jpg": "/eleconone/static/media/team.c5d238a8f4de54607bcf.jpg",
+    "static/media/projects-data.jpg": "/eleconone/static/media/projects-data.7470f8bd7dd3639fd37c.jpg",
+    "static/media/group.jpg": "/eleconone/static/media/group.abed12e9c0368c4e95fe.jpg",
+    "static/media/hero-vector.png": "/eleconone/static/media/hero-vector.0de29cab0749f1016a34.png",
+    "static/media/article-vector.png": "/eleconone/static/media/article-vector.9ec972b59eac09a76f12.png",
+    "static/media/values.png": "/eleconone/static/media/values.e2b3a0e2ead941514b56.png",
+    "static/media/dice.png": "/eleconone/static/media/dice.057c6daa3afb01c80243.png",
+    "static/media/man.png": "/eleconone/static/media/man.b4cca6d6c5bde0504e7a.png",
+    "static/media/digital-marketing.png": "/eleconone/static/media/digital-marketing.0b973d07a59156c688c0.png",
+    "static/media/wave.png": "/eleconone/static/media/wave.0199ce8507724abf606a.png",
+    "static/media/brackets.png": "/eleconone/static/media/brackets.ba285b48008b2ac16d7e.png",
+    "static/media/rocket.png": "/eleconone/static/media/rocket.a7edfa664d67c50f8f55.png",
+    "static/media/cloud.png": "/eleconone/static/media/cloud.165c62c95580372c58e2.png",
+    "static/media/cube.png": "/eleconone/static/media/cube.f14cebaf006f889c618b.png",
+    "static/media/receiver.png": "/eleconone/static/media/receiver.b5b5fad1c366747621de.png",
+    "static/media/clock.png": "/eleconone/static/media/clock.af1f2b510ee58968cd1a.png",
+    "static/media/envelope.png": "/eleconone/static/media/envelope.56c1fe30e72395e824bb.png",
+    "static/media/map.png": "/eleconone/static/media/map.28b613b1ddb25fcb966f.png",
+    "static/media/mobile.png": "/eleconone/static/media/mobile.d8945fdfe08d113a0358.png",
+    "static/media/benefits_svg.png": "/eleconone/static/media/benefits_svg.902748bbf5105833f631.png",
+    "static/media/case.png": "/eleconone/static/media/case.d44356cbf73f98cdc9f8.png",
+    "static/media/team.png": "/eleconone/static/media/team.dcc952dd5d6896d20119.png",
+    "static/media/i-card.png": "/eleconone/static/media/i-card.5d167734a1b8abdeb995.png",
+    "static/media/eleconone-logo-light.png": "/eleconone/static/media/eleconone-logo-light.47cf84051af241d947b7.png",
+    "index.html": "/eleconone/index.html",
+    "main.258d7af3.css.map": "/eleconone/static/css/main.258d7af3.css.map",
+    "main.6e8cd8c1.js.map": "/eleconone/static/js/main.6e8cd8c1.js.map",
+    "787.9a16c58f.chunk.js.map": "/eleconone/static/js/787.9a16c58f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.258d7af3.css",
+    "static/js/main.6e8cd8c1.js"
+  ]
+}
